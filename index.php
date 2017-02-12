@@ -13,7 +13,6 @@
 		<?php include_once "cabecalho.php" ?>
 	</div>
 
-
 	<!-- Niveis e Classes -->
 	<div>
 		<?php include_once "niveis_classes.php" ?>
@@ -21,7 +20,7 @@
 
 	<!-- Habilidades -->
 	<div>
-		<?php include_once "Habilidades.php" ?>
+		<?php include_once "habilidades.php" ?>
 	</div>
 
 	<!-- Base de Combate -->
@@ -40,7 +39,52 @@
 
 		<!-- Base de Ataque -->
 		<?php include_once "base_ataque.php" ?>
+	</div>
 
+	<div>
+		<!-- Arma -->
+		<?php include_once "arma_ataque.php" ?>
+
+		<!-- Equipamento Protecao -->
+		<?php include_once "equipamento_protecao.php" ?>
+
+		<!-- Outros Equipamentos -->
+		<?php include_once "outros_itens.php" ?>
+	</div>
+
+		<!-- Pericias -->
+	<div>
+		<?php include_once "pericias.php" ?>		
+	</div>
+
+	<!-- Talentos -->
+	<div>
+		<?php include_once "talentos.php" ?>
+	</div>
+
+	<!-- Caracteristicas Raciais -->
+	<div>
+		<?php include_once "raciais_classes.php" ?>
+	</div>
+
+	<!-- Idiomas -->
+	<div>
+		<?php include_once "idiomas.php" ?>
+	</div>
+
+
+	<div>
+		<!-- Magias -->
+		<?php include_once "magias.php" ?>
+
+		<!-- Ciclo de Magias -->
+		<?php include_once "ciclos_magias.php" ?>
+
+	</div>
+
+	<!-- Descricao -->
+	<div>
+		<?php include_once "descricao.php" ?>
 	</div>
 
 	<button type="submit">Salvar</button>

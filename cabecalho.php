@@ -7,6 +7,6 @@
 	Raça <br>
 	<select name="raca">
 		<option value="" ></option>
-		<option value="Humano" >Raça Humana</option>
+		<option value="Humano" >Humano</option>
 	</select>
 </label>
